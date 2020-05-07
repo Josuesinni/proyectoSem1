@@ -23,15 +23,33 @@
             </div>
         </nav>
     </header>
-    <!--Más-->
-    <i class="fas fa-plus fa-2x"></i>
-    <!--Menos-->
-    <i class="fas fa-minus fa-2x"></i>
-    <!--Dividir-->
-    <i class="fas fa-divide fa-2x"></i>
-    <!--Igual-->
-    <i class="fas fa-equals fa-2x"></i>
-    <!--Por-->
-    <i class="fas fa-times fa-2x"></i>
+    <div class="container">
+            <div class="fondoOP">
+                <h1>Suma de dos numeros</h1>
+                <div class="entradaDatos">
+                    <input type="number" id="n1" placeholder="Primer numero">
+                </div>
+                <div class="entradaDatos">
+                    <!--Más-->
+                    <p><i class="fas fa-plus fa-2x"></i></p>
+                </div>
+                <div class="entradaDatos">
+                    <input type="number" id="n2" placeholder="Segundo numero">
+                </div>
+                <div class="entradaDatos">
+                    <!--Igual-->
+                    <i class="fas fa-equals fa-2x"></i> 
+                </div>
+                <div class="entradaDatos">
+                    <input type="number" disabled id="n3" placeholder="Resultado">
+                </div>
+            </div>
+        </div>
+        <section class="btn">
+            <button onclick="plus();" class="btnAcc">Realizar la operacion</button>
+        </section>
+        <script src="../funciones.js"></script>
+        <footer style="text-align: center;" class="pie">
+        <p>©Derechos reservados</p>--Calsimpl 2020--</footer>
 </body>
 </html>
