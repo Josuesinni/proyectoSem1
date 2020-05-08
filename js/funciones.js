@@ -34,10 +34,10 @@ function sum(){
     var inputNombre = document.getElementById("n3");
     inputNombre.value = "Resultado";
   }else{
-    var sum;
-    sum = parseInt(txtnum1)+parseInt(txtnum2);
+    var suma;
+    suma = parseInt(txtnum1)+parseInt(txtnum2);
     var inputNombre = document.getElementById("n3");
-    inputNombre.value = sum;
+    inputNombre.value = suma;
   }
 }
 function mult(){
@@ -48,9 +48,9 @@ function mult(){
     var inputNombre = document.getElementById("n3");
     inputNombre.value = "Resultado";
   }else{
-    var mul;
-    mul = txtnum1*txtnum2;
+    var multiplicacion;
+    multiplicacion = txtnum1*txtnum2;
     var inputNombre = document.getElementById("n3");
-    inputNombre.value = mul;
+    inputNombre.value = multiplicacion;
   }
 }
