@@ -90,7 +90,6 @@ main .contenedor-img {
      line-height: 36px;
 }
 
-
 @media screen and (max-width: 915px) {
      main {
           flex-direction: column;

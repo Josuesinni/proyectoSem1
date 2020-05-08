@@ -39,3 +39,9 @@ h1{
 p{
   margin: 0;
 }
+#ganso{
+    position:absolute;
+    height: 40px ;
+    width: 40px;
+    margin:10px;
+}

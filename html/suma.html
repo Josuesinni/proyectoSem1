@@ -13,7 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
-<body style="background-image: url(../imagenes/sumaFon.jpg); background-position: center; background-attachment: contain; background-size: cover;">
+<body style="background-image: url(../imagenes/sumaFon.jpg); background-position: center; background-attachment: contain; background-size: cover;" id="sonido">
     <header class="cabecera">
         <div class="logo">
             <p> <a href=""><img src="../imagenes/logo.png" alt=""> </a></p>
@@ -51,13 +51,28 @@
         </div>
     </div>
     <section class="btn">
-        <button onclick="sum();" class="btnAcc">Realizar la operacion</button>
+        <button onclick="sum(); sonGanso();" class="btnAcc">Realizar la operacion</button>
     </section>
+    <img src="../imagenes/ganso.png" id="ganso" class="ganso" alt="">
+
     <script src="../js/funciones.js"></script>
     <footer style="text-align: center;" class="pie">
         <p>©Derechos reservados<p>
             --Calsimpl 2020--
         <p>Hecho por Luis Gabriel Castillo Herrera & Zahid Josue Urias Vizcarra</p>
     </footer>
+    <audio id="sonido-ganso" src="../css/Cuack.m4a"></audio>
+    <script>
+        $(document).mousemove(function(e){
+    $("#ganso").css({
+        left:e.pageX, 
+        top:e.pageY});
+    });
+    document.getElementById("sonido").onclick = sonGan;
+    function sonGanso() {
+      var sonGan = document.getElementById("sonido-ganso");
+        sonGan.play();
+     }
+    </script>
 </body>
 </html>
