@@ -17,6 +17,8 @@
 .btn button{
     width: 100%;
     height: 45px;
+    font-family: wha;
+
 }
 .entradaDatos{
     float: left;
@@ -32,16 +34,27 @@ i{
 }
 h1{
     color: white;
+    font-family: wha;
 }
 .pie{
     margin-top: 14%;
 }
 p{
   margin: 0;
+  font-family: whit;
+  font-size: 24px;
 }
 #ganso{
     position:absolute;
     height: 40px ;
     width: 40px;
     margin:10px;
+}
+@font-face{
+    font-family: whit;
+    src: url(fuentes/Montez-Regular.ttf);
+}
+@font-face{
+    font-family: wha;
+    src: url(fuentes/LuckiestGuy-Regular.ttf);
 }
