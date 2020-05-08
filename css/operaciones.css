@@ -17,7 +17,7 @@
 .btn button{
     width: 100%;
     height: 45px;
-    font-family: monospace;
+    font-family: Andale Mono, monospace;
 
 }
 .entradaDatos{
@@ -34,7 +34,7 @@ i{
 }
 h1{
     color: white;
-    font-family: monospace;
+    font-family: Andale Mono, monospace;
 }
 .pie{
     margin-top: 14%;
