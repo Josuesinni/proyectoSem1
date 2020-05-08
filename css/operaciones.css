@@ -1,0 +1,41 @@
+.container{
+    padding-top: 200px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.fondoOP{
+    background: rgba(0, 0, 0, .8);
+    text-align: center;
+}
+.btn{
+    font-size: 18px;
+    margin-left: 41%;
+    width: 18%;
+    height: 60px;
+}
+.btn button{
+    width: 100%;
+    height: 45px;
+}
+.entradaDatos{
+    float: left;
+    margin: 5px;
+    height: 32px;
+    
+}
+.entradaDatos input{
+    height: 32px;
+}
+i{
+    color: white;
+}
+h1{
+    color: white;
+}
+.pie{
+    margin-top: 14%;
+}
+p{
+  margin: 0;
+}
